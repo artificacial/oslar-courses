@@ -1,12 +1,20 @@
-# Accessible Astro Starter
+# Página Web de Cursos de Diseño y Desarrollo Web
 
-![social-preview-image](https://user-images.githubusercontent.com/3909046/219942674-9894853e-def8-4180-84b8-6b577dacfcaa.png)
+![socialPreview](/public/socialPreview.PNG)
 
-Accessible Astro Starter is a ready to use, SEO and a11y friendly blogging theme. It contains plenty of accessible components to build several page types, Tailwind CSS to help you build faster and example pages such as a dynamic Blog, 404, Markdown and MDX. This theme is designed to help you build your project faster and provide a solid base for accessibility!
+Bienvenido a mi página web de cursos de diseño y desarrollo web. Esta página está creada utilizando Astro JS, una herramienta moderna para la construcción de sitios web estáticos y dinámicos.
 
-🚀 [Live Preview](https://accessible-astro.netlify.app/)
+## Acerca del proyecto
 
-## ♿ (Accessibility) Features
+Esta página web tiene como objetivo proporcionar una plataforma para ofrecer cursos de diseño y desarrollo web a personas interesadas en adquirir habilidades en este campo. Ofrezco una variedad de cursos que abarcan desde los conceptos básicos hasta temas avanzados, cubriendo áreas como HTML, CSS, JavaScript, diseño UX/UI, frameworks populares y más.
+
+## Características
+
+- **Cursos Variados**: Ofrezco una amplia gama de cursos para adaptarse a las necesidades de diferentes niveles de habilidad y áreas de interés en diseño y desarrollo web.
+- **Material de Aprendizaje**: Mis cursos incluyen material de aprendizaje completo, que abarca desde videos tutoriales hasta ejercicios prácticos y recursos descargables.
+- **Experiencia Interactiva**: Esta página web ofrece una experiencia de usuario interactiva y fluida, facilitando la navegación y el acceso a los cursos y recursos disponibles.
+
+## Tecnologías utilizadas
 
 - Astro 4.0
 - Tailwind CSS support
@@ -44,22 +52,20 @@ Clone this theme locally and run any of the following commands in your terminal:
 | `npm run build`   | Build your production site to `./dist/`      |
 | `npm run preview` | Preview your build locally, before deploying |
 
-## 📦 Other Accessible Astro projects
+## 📦 Otros Astro projects
 
-- [Accessible Astro Dashboard](https://github.com/markteekman/accessible-astro-dashboard/)
-- [Accessible Astro Components](https://github.com/markteekman/accessible-astro-components/)
+- [Astro blog](https://my-oslar-blog.vercel.app/)
 
-## ❤️ Helping out
+## ❤️ Cómo Contribuir
 
-If you find that something isn't working right then I'm always happy to hear it to improve this starter! You can contribute in many ways and forms. Let me know by either:
+Si estás interesado en contribuir a mi proyecto, ¡te doy la bienvenida! Puedes contribuir de las siguientes maneras:
 
-1. [Filing an issue](https://github.com/markteekman/accessible-astro-starter/issues)
-2. [Submitting a pull request](https://github.com/markteekman/accessible-astro-starter/pulls)
-3. [Starting a discussion](https://github.com/markteekman/accessible-astro-starter/discussions)
-4. [Buying me a coffee!](https://www.buymeacoffee.com/markteekman)
+1. Reportando problemas o sugiriendo mejoras mediante la apertura de un problema en nuestro repositorio.
+2. Proponiendo nuevas características o cursos que te gustaría ver en nuestra página web.
+3. Enviando solicitudes de extracción con correcciones de errores o mejoras de código.
 
-## ☕ Thank you!
+## ☕ ¡Gracias!
 
-A big thank you to the creators of the awesome Astro static site generator and to all using this starter to make the web a bit more accessible for all people around the world :)
+¡Gracias por visitar mi página web de cursos de diseño y desarrollo web!
 
-[![buymeacoffee-button](https://user-images.githubusercontent.com/3909046/150683481-be070424-7bb0-4dd7-a3cb-43b5605163f5.png)](https://www.buymeacoffee.com/markteekman)
+![buymeacoffee-button](/public/bmc_qr.png)

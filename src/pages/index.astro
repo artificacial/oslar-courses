@@ -2,72 +2,60 @@
 import DefaultLayout from '../layouts/DefaultLayout.astro'
 import Hero from '../components/Hero.astro'
 import Feature from '../components/Feature.astro'
-import Counter from '../components/Counter.astro'
-import ContentMedia from '../components/ContentMedia.astro'
 ---
 
 <DefaultLayout title="Home">
   <Hero />
   <section class="my-64">
     <div class="container">
-      <h2 class="mb-16 text-6xl">Features</h2>
+      <!--Cursos básicos -->
+      <h2 class="mb-16 text-6xl">Cursos Básicos</h2>
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        <Feature icon="mdi:tailwind" title="Tailwind CSS">
-          Use the power of Tailwind to greatly improve your productivity and enhance your developer workflow.
+        <Feature icon="mdi:language-html5" title="HTML Básico">
+          Aprende a crear páginas web con HTML, el lenguaje fundamental de la web. Este curso te enseñará los
+          fundamentos de HTML5, la última versión del lenguaje. <a href="/cursoBasicoHTML" target="_blank"
+            >Accede al curso</a
+          >
         </Feature>
-        <Feature icon="mdi:wheelchair-accessibility" title="a11y Components">
-          17 components and counting, all tried and tested for the most optimal accessible experience for your visitors.
+        <Feature icon="mdi:language-css3" title="CSS Básico">
+          Aprende a dar estilo a tus páginas web con CSS, el lenguaje que controla la apariencia de los elementos HTML.
+          Este curso te enseñará los fundamentos de CSS3, la última versión del lenguaje.
         </Feature>
-        <Feature icon="mdi:looks" title="Prettier">
-          Less worry about formatting your code, let the Astro Prettier integration do the heavy lifting.
+        <Feature icon="mdi:arm-flex-outline" title="Flexbox">
+          En este curso aprenderás los fundamentos de Flexbox, desde cómo estructurar y organizar elementos en el diseño
+          flexible hasta cómo alinear y distribuir espacios entre ellos de manera eficiente.
         </Feature>
-        <Feature icon="mdi:eslint" title="ESLint">
-          Lint your code with strict a11y settings to ensure you stay on track with the WCAG standards.
+        <Feature icon="mdi:grid" title="CSS Grid">
+          En este curso, aprenderás una de las tecnologías más poderosas y flexibles para diseñar páginas web: CSS Grid.
+          El sistema de diseño bidimensional que te permite crear diseños complejos y responsivos con facilidad.
         </Feature>
-        <Feature icon="mdi:book-open-page-variant" title="Blog">
-          This theme comes with a fully integrated blog, dynamic pages and SEO optimization.
+        <Feature icon="mdi:vs-code" title="VSCode + Emmet">
+          En este curso, aprenderás como utilizar Emmet en Visual Studio Code para aumentar tu productividad en el
+          desarrollo web.
         </Feature>
-        <Feature icon="mdi:language-markdown" title="Markdown & MDX">
-          Easily use .md and .mdx pages to build your websites or use it with Netlify CMS.
+        <Feature icon="mdi:language-javascript" title="JavaScript">
+          El lenguaje que impulsa la interactividad en la web, desde simples animaciones hasta complejas aplicaciones en
+          tiempo real. Con JavaScript, dominarás los fundamentos y podrás construir cualquier cosa que puedas imaginar.
         </Feature>
-        <Feature icon="mdi:theme-light-dark" title="Dark mode">
-          Fully integrated Dark mode gives your users the choice for their favorite viewing mode.
-        </Feature>
-        <Feature icon="mdi:cog" title="Design System">
-          The theme offers some very handy utilities to help you build your website faster.
-        </Feature>
-        <Feature icon="mdi:lighthouse" title="Lighthouse Scores">
-          Excellent lighthouse scores means your website will load faster and get better SEO rankings.
-        </Feature>
+        <!--Cursos de diseño -->
       </div>
-    </div>
-  </section>
-  <ContentMedia imgSrc="/accessible-components.webp">
-    <h2>Accessible Components</h2>
-    <p class="text-2xl">
-      This theme provides plenty of tried and tested Accessible Astro Components. Some are native to this theme and a
-      lot of others are integrated using a <a href="https://github.com/markteekman/accessible-astro-components"
-        >separate package</a
-      >. They'll get you up and running in building an accessible solution for your visitors.
-    </p>
-  </ContentMedia>
-  <ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
-    <h2>WCAG 2.1 AA Compliant</h2>
-    <p class="text-2xl">
-      Using semantic HTML, landmarks, skip links, screen reader friendly content, aria-labels, keyboard accessible
-      navigation and components, clear outlines and tab indicators and the right color contrast, you're more certain of
-      reaching WCAG AA compliance.
-    </p>
-  </ContentMedia>
-  <section class="mb-32 mt-64">
-    <div class="container">
-      <h2 class="mb-16 text-6xl">Counters</h2>
-      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
-        <Counter count="520" title="Stars" sub="On GitHub" />
-        <Counter count="17" title="Accessible" sub="Components" />
-        <Counter count="500" title="Commits" sub="Merged" />
-        <Counter count="18+" title="Months" sub="Since launch" />
-      </div>
+      <h2 class="mb-16 mt-16 text-center text-6xl">Cursos de diseño</h2>
+      <Feature icon="mdi:brush" title="Procreate">
+        La herramienta definitiva para artistas digitales, ilustradores y diseñadores. Con sus potentes características
+        y flujo de trabajo intuitivo, podrás crear obras de arte impresionantes con facilidad.
+      </Feature><br />
+      <Feature icon="mdi:design" title="Figma">
+        Domina la herramienta de diseño UX/UI lider en la industria: Figma. Este curso te enseñará los fundamentos de
+        Figma, desde la creación de interfaces hasta la colaboración en equipo.
+      </Feature><br />
+      <Feature icon="mdi:photo-camera" title="Photoshop">
+        Domina el software de edición de imágenes más popular del mundo: Photoshop. En este curso aprenderás los
+        fundamentos de Photoshop, desde la edición básica hasta las técnicas más avanzadas.
+      </Feature><br />
+      <Feature icon="mdi:canvas" title="Canva">
+        Domina la herramienta de diseño gráfico más popular: Canva. En este curso aprenderás los fundamentos de Canva,
+        desde la creación de diseños básicos hasta la edición de imágenes y videos.
+      </Feature><br />
     </div>
   </section>
 </DefaultLayout>

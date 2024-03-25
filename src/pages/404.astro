@@ -1,17 +1,272 @@
 ---
-import DefaultLayout from '../layouts/DefaultLayout.astro'
+import '../assets/scss/globals.scss'
 ---
 
-<DefaultLayout title="404">
-  <section class="my-12">
-    <div class="container">
-      <h1>404</h1>
+<section class="error-body">
+  <video
+    preload="auto"
+    class="background"
+    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/396624/err.mp4"
+    autoplay
+    muted
+    loop></video>
+  <div class="message">
+    <h1 title="404">404</h1>
+    <div class="bottom">
+      <p>Saved data is damaged and cannot be loaded</p><br />
+      <a href="/">Fix it</a>
     </div>
-  </section>
-  <section class="my-12">
-    <div class="space-content container">
-      <p class="text-2xl">This page does not exist. Don't worry though, we got you.</p>
-      <a class="button" href="/">Let's get you home Astronout 🚀</a>
-    </div>
-  </section>
-</DefaultLayout>
+  </div>
+</section>
+
+<style>
+  :root {
+    box-sizing: border-box;
+    cursor: default;
+  }
+  ::selection {
+    color: #11111b;
+    background-color: #a10000;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #11111b;
+    color: var(--cyb-red-100);
+    font-size: calc(6.4px + 0.8125vw);
+  }
+  .error-body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .error-body:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cyb-red-100);
+    mix-blend-mode: overlay;
+    z-index: 1;
+  }
+  .error-body:after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #11111b 21px, transparent 1%) center,
+      linear-gradient(#11111b 21px, transparent 1%) center, #fff;
+    background-size: 22px 22px;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 1;
+  }
+  .error-body .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    filter: grayscale(1);
+    mix-blend-mode: luminosity;
+  }
+  .error-body .message {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 3;
+  }
+  .error-body .message h1 {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    font-size: 10em;
+    margin: 0;
+    animation: shake 600ms ease-in-out infinite alternate;
+    text-shadow: 0 0 0.07em var(--cyb-red-100), -0.2em 0 2em var(--cyb-red-200), 0.2em 0 2em var(--cyb-red-200);
+    user-select: none;
+  }
+  .error-body .message h1:before {
+    content: attr(t);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0.34em);
+    height: 0.1em;
+    line-height: 0.5em;
+    width: 100%;
+    animation: scan 500ms ease-in-out infinite alternate 494ms, glitch-anim 300ms ease-in-out infinite alternate;
+    overflow: hidden;
+    opacity: 0.7;
+  }
+  .error-body .message h1:after {
+    content: attr(t);
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, 0.34em);
+    height: 0.5em;
+    line-height: 0.1em;
+    width: 100%;
+    animation: scan 665ms ease-in-out infinite alternate 110ms, glitch-anim 300ms ease-in-out infinite alternate;
+    overflow: hidden;
+    opacity: 0.8;
+  }
+  .error-body .message .bottom {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    width: 100%;
+  }
+  .error-body .message p,
+  .error-body .message a {
+    font-size: 2em;
+    font-family: monospace;
+    text-shadow: 0 0 5px var(--cyb-red-100);
+    filter: blur(0.8px);
+  }
+  .error-body .message a {
+    position: relative;
+    color: var(--cyb-red-100);
+    text-decoration: none;
+    font-weight: 700;
+    border: 2px solid var(--cyb-red-100);
+    text-transform: uppercase;
+    padding: 5px 30px;
+    box-shadow: inset 0 0 0 0 var(--cyb-red-300);
+    transition: 25ms ease-in-out all 0ms;
+    overflow: hidden;
+    animation: attn 3s ease-in-out infinite;
+  }
+  .error-body .message a:hover {
+    cursor: crosshair;
+    box-shadow: inset 0 -2em 0 0 var(--cyb-red-300);
+    transition: 225ms ease-in-out all 225ms;
+    animation: none;
+  }
+  .error-body .message a:hover:before,
+  .error-body .message a:hover:after {
+    transform: translate(-50%, 0) scale(0, 1);
+  }
+  .error-body .message a:active {
+    box-shadow: inset 0 -2em 0 0 var(--cyb-red-200);
+    transition: 225ms ease-in-out all 225ms;
+  }
+  .error-body .message a:before,
+  .error-body .message a:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0) scale(1, 1);
+    transform-origin: center;
+    background-color: #11111b;
+    width: 90%;
+    height: 5px;
+    transition: 225ms ease-in-out all;
+    mix-blend-mode: hard-light;
+  }
+  .error-body .message a:before {
+    top: -4px;
+  }
+  .error-body .message a:after {
+    bottom: -4px;
+  }
+  @keyframes scan {
+    from,
+    20%,
+    100% {
+      height: 0;
+      transform: translate(-50%, 0.44em);
+    }
+    10%,
+    15% {
+      height: 1em;
+      line-height: 0.2em;
+      transform: translate(-55%, 0.29em);
+    }
+  }
+  @keyframe pulse {
+    from {
+      text-shadow: 0 0 0 #afd33d, 0 0 0 rgba(175, 211, 61, 0.3), 0 0 0 rgba(175, 211, 61, 0.3);
+    }
+    to {
+      text-shadow: 0 0 0.07em #afd33d, -0.2em 0 2em rgba(175, 211, 61, 0.3), 0.2em 0 2em rgba(175, 211, 61, 0.3);
+    }
+  }
+  @keyframes attn {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    30%,
+    35% {
+      opacity: 0.4;
+    }
+  }
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translate(-1px, 0);
+    }
+    10% {
+      transform: translate(2px, 1px);
+    }
+    30% {
+      transform: translate(-3px, 2px);
+    }
+    35% {
+      transform: translate(2px, -3px);
+      filter: blur(4px);
+    }
+    45% {
+      transform: translate(2px, 2px) skewY(-8deg) scale(0.96, 1);
+      filter: blur(0);
+    }
+    50% {
+      transform: translate(-3px, 1px);
+    }
+  }
+  @keyframes glitch-anim {
+    0% {
+      clip: rect(25px, 9999px, 48px, 0);
+    }
+    10% {
+      clip: rect(10px, 9999px, 85px, 0);
+    }
+    20% {
+      clip: rect(100px, 9999px, 10px, 0);
+    }
+    30% {
+      clip: rect(76px, 9999px, 98px, 0);
+    }
+    40% {
+      clip: rect(80px, 9999px, 40px, 0);
+    }
+    50% {
+      clip: rect(42px, 9999px, 26px, 0);
+    }
+    60% {
+      clip: rect(18px, 9999px, 30px, 0);
+    }
+    70% {
+      clip: rect(3px, 9999px, 6px, 0);
+    }
+    80% {
+      clip: rect(24px, 9999px, 46px, 0);
+    }
+    90% {
+      clip: rect(63px, 9999px, 98px, 0);
+    }
+    100% {
+      clip: rect(100px, 9999px, 6px, 0);
+    }
+  }
+</style>

@@ -1,7 +1,7 @@
 ---
 import { Icon } from 'astro-icon/components'
 
-const { src = '/astronaut-hero-img.webp' } = Astro.props
+const { src = '/web_designer_boy.webp' } = Astro.props
 ---
 
 <section class="hero my-24">
@@ -9,18 +9,19 @@ const { src = '/astronaut-hero-img.webp' } = Astro.props
     <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
       <div class="flex flex-col items-center gap-8 md:items-start">
         <h1 class="text-center text-6xl md:text-left lg:text-8xl">
-          <slot><span class="text-gradient">Accessible</span> Starter for Astro</slot>
+          <slot><span class="text-gradient">Saludos!</span></slot>
         </h1>
+        <p class="text-2xl">
+          ¡Aloha desarrolladores del mañana!. Soy Öslar, y estoy aquí para convertir el HTML en 'How To Make Life' y el
+          CSS en 'Creating Stunning Sites'
+        </p>
         <div class="flex flex-col gap-3 min-[500px]:flex-row">
-          <a class="button has-icon" href="https://github.com/markteekman/accessible-astro-starter">
-            <Icon name="ion:star-outline" />
-            Star on GitHub
+          <a class="button has-icon" href="https://github.com/artificacial" target="_blank">
+            <Icon name="mdi:github" />
+            See you on GitHub
           </a>
-          <a
-            class="button has-icon color-secondary"
-            href="https://github.com/markteekman/accessible-astro-starter/blob/main/README.md"
-          >
-            <Icon name="ion:bookmark-outline" />
+          <a class="button has-icon color-secondary" href="#" hidden>
+            <Icon name="mdi:file-document-outline" />
             Read the Docs
           </a>
         </div>
@@ -32,14 +33,14 @@ const { src = '/astronaut-hero-img.webp' } = Astro.props
 
 <style lang="scss">
   .text-gradient {
-    background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-500));
+    background: linear-gradient(315deg, var(--primary-100) 25%, var(--primary-100));
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   :global(.darkmode .text-gradient) {
-    background: linear-gradient(315deg, var(--primary-200) 25%, var(--secondary-400));
+    background: linear-gradient(315deg, var(--secondary-100) 25%, var(--secondary-100));
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
