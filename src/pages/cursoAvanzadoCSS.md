@@ -53,7 +53,7 @@ curso-avanzado-css3
 
 ## Cómo Contribuir
 
-Siéntete libre de contribuir a este repositorio añadiendo tus propios ejemplos, corrigiendo errores, o mejorando la documentación. ¡Todas las contribuciones son bienvenidas!
+Siéntete libre de contribuir a este [repositorio](https://github.com/artificacial/cursoCSS3Avanzado) añadiendo tus propios ejemplos, corrigiendo errores, o mejorando la documentación. ¡Todas las contribuciones son bienvenidas!
 
 1. Haz un fork del repositorio (`Fork`)
 2. Clona tu fork (`git clone https://github.com/TU_USUARIO/cursoCSS3Avanzado`)
