@@ -56,18 +56,6 @@ Este curso está diseñado para principiantes que deseen aprender los fundamento
 - [!important](https://github.com/artificacial/cursoCSS3Basico/blob/main/!importantCSS3.md)
 - [Specificidad](https://github.com/artificacial/cursoCSS3Basico/blob/main/specificity.md)
 
-## ¿Cómo Usar Este Repositorio?
-
-1. Clona este repositorio en tu máquina local:
-
-```bash
-git clone https://github.com/artificacial/cursoCSS3Basico
-```
-
-2. Explora los archivos de lecciones y practica los ejemplos de código.
-
-3. Utiliza los recursos para obtener más información y referencias sobre CSS3.
-
 ## Recursos Adicionales
 
 Para obtener más información sobre CSS3, puedes consultar los siguientes recursos:
