@@ -55,13 +55,6 @@ curso-avanzado-css3
 
 Siéntete libre de contribuir a este [repositorio](https://github.com/artificacial/cursoCSS3Avanzado) añadiendo tus propios ejemplos, corrigiendo errores, o mejorando la documentación. ¡Todas las contribuciones son bienvenidas!
 
-1. Haz un fork del repositorio (`Fork`)
-2. Clona tu fork (`git clone https://github.com/TU_USUARIO/cursoCSS3Avanzado`)
-3. Crea una nueva rama para tu contribución (`git checkout -b nueva-caracteristica`)
-4. Realiza tus cambios y haz commits (`git commit -am 'Añadir nueva característica'`)
-5. Sube los cambios a tu fork (`git push origin nueva-caracteristica`)
-6. Crea un nuevo Pull Request
-
 ## Recursos Adicionales
 
 - [MDN Web Docs: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
