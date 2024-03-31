@@ -36,10 +36,6 @@ Para obtener más información sobre HTML, puedes consultar los siguientes recur
 - [W3Schools - HTML Tutorial](https://www.w3schools.com/html/)
 - [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
 
-## Contribución
-
-Si encuentras algún error en el contenido del curso o deseas contribuir con nuevas lecciones, ¡no dudes en abrir un issue o enviar un pull request!
-
 ## Contacto
 
 Si tienes alguna pregunta o necesitas ayuda adicional, puedes contactar al instructor del curso a través de [correo electrónico](mailto:artificacial.tk@gmail.com).
