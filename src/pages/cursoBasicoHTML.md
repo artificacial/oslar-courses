@@ -36,6 +36,10 @@ Para obtener más información sobre HTML, puedes consultar los siguientes recur
 - [W3Schools - HTML Tutorial](https://www.w3schools.com/html/)
 - [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
 
+## Capítulos sobre formularios HTML
+
+Los formularios web son una parte fundamental de muchas aplicaciones y sitios web, y HTML5 ofrece una serie de características y elementos que facilitan su creación y mejora la experiencia del usuario. ¿Te gyustaria saber como integrar formularios en tu HTML? Sigue este [enlace](https://github.com/artificacial/formulariosHTML/tree/main).
+
 ## Contacto
 
 Si tienes alguna pregunta o necesitas ayuda adicional, puedes contactar al instructor del curso a través de [correo electrónico](mailto:artificacial.tk@gmail.com).
