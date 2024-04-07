@@ -7,26 +7,53 @@ import { Icon } from 'astro-icon/components'
 <header>
   <SkipLinks />
   <Navigation>
-    <li class="menu-item">
-      <a href="/">Home</a>
-    </li>
-    <li class="menu-item">
-      <a href="/blog/" hidden>Blog</a>
-    </li>
+    <!--HTML -->
     <li class="menu-item has-dropdown">
-      <button aria-haspopup="true" aria-expanded="false">Cursos</button>
+      <button aria-haspopup="true" aria-expanded="false">HTML</button>
       <ul class="dropdown-menu">
         <li class="submenu-item">
-          <a href="/cursoBasicoHTML">Curso HTML + Formularios</a>
+          <a href="/cursoBasicoHTML">HTML</a>
         </li>
         <li class="submenu-item">
-          <a href="/cursoBasicoCSS/">Curso CSS</a>
-        </li>
-        <li class="submenu-item">
-          <a href="/cursoAvanzadoCSS/">Curso CSS Avanzado</a>
+          <a href="/cursoFormulariosHTML">Formularios HTML</a>
         </li>
       </ul>
     </li>
+    <!--CSS -->
+    <li class="menu-item has-dropdown">
+      <button aria-haspopup="true" aria-expanded="false">CSS</button>
+      <ul class="dropdown-menu">
+        <li class="submenu-item">
+          <a href="/cursoBasicoCSS">CSS</a>
+        </li>
+        <li class="submenu-item">
+          <a href="/cursoAvanzadoCSS">CSS avanzado</a>
+        </li>
+      </ul>
+    </li>
+    <!--JavaScript -->
+    <li class="menu-item has-dropdown">
+      <button aria-haspopup="true" aria-expanded="false">JavaScript</button>
+      <ul class="dropdown-menu">
+        <li class="submenu-item">
+          <a href="">JavaScript Básico</a>
+        </li>
+        <li class="submenu-item">
+          <a href="">JavaScript DOM</a>
+        </li>
+        <li class="submenu-item">
+          <a href="">JavaScript BOM</a>
+        </li>
+        <li class="submenu-item">
+          <a href="">JavaScript Avanzado</a>
+        </li>
+      </ul>
+    </li>
+    <!--Blog -->
+    <li class="menu-item">
+      <a href="/blog/" hidden>Blog</a>
+    </li>
+    <!--Social -->
     <li class="menu-item type-icon">
       <a href="https://github.com/artificacial" title="Go to the GitHub page" target="_blank">
         <Icon name="ion:logo-github" />
