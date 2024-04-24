@@ -14,8 +14,8 @@ Este repositorio contiene materiales y ejemplos prácticos para un curso de Java
 El curso cubrirá una variedad de temas de JavaScript, incluyendo:
 
 1. [Introducción a JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/introducci%C3%B3nJavaScript.md)
-2. [¿Por qué JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/whyJavaScript.md)
-3. [¿Dónde ubicar mis scripts en JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/whereJavaScript.md)
+2. [¿Por qué JavaScript?](https://github.com/artificacial/cursoJavaScript/blob/main/whyJavaScript.md)
+3. [¿Dónde ubicar mis scripts en JavaScript?](https://github.com/artificacial/cursoJavaScript/blob/main/whereJavaScript.md)
 4. [Sintáxis de JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/sintaxJavaScript.md)
 5. [Comentarios en JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/commentsJavaScript.md)
 6. [Variables en JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/variablesJavaScript.md)
