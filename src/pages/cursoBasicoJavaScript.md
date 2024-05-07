@@ -66,7 +66,6 @@ El curso cubrirá una variedad de temas de JavaScript, incluyendo:
 53. [Expresiones regulares](https://github.com/artificacial/cursoJavaScript/blob/main/regExpJavaScript.md)
 55. [Manejo de errores](https://github.com/artificacial/cursoJavaScript/blob/main/errorsManagementJavaScript.md)
 56. [This](https://github.com/artificacial/cursoJavaScript/blob/main/thisJavaScript.md)
-58. [Funciones Flecha](https://github.com/artificacial/cursoJavaScript/blob/main/arrowFunctionsJavaScript.md)
 59. [Clases](https://github.com/artificacial/cursoJavaScript/blob/main/classesJavaScript.md)
 60. [Modulos](https://github.com/artificacial/cursoJavaScript/blob/main/modulesJavaScript.md)
 61. [JSON](https://github.com/artificacial/cursoJavaScript/blob/main/JSONJavaScript.md)
