@@ -40,7 +40,6 @@ El curso cubrirá una variedad de temas de JavaScript, incluyendo:
 26. [Objetos](https://github.com/artificacial/cursoJavaScript/blob/main/objetcsJavaScript.md)
 28. [Strings](https://github.com/artificacial/cursoJavaScript/blob/main/stringsJavaScript.md)
 30. [Strings Templates en JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/stringsTemplatesJavaScript.md)
-31. [Métodos de búsqueda en Strings](https://github.com/artificacial/cursoJavaScript/blob/main/stringsSearchMethodsJavaScript.md)
 32. [Números](https://github.com/artificacial/cursoJavaScript/blob/main/numbersJavaScript.md)
 33. [Métodos para números en JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/numbersMethodsJavaScript.md)
 34. [Arrays en JavaScript](https://github.com/artificacial/cursoJavaScript/blob/main/arraysJavaScript.md)
