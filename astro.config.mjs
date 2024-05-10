@@ -10,4 +10,7 @@ export default defineConfig({
   integrations: [mdx(), icon(), tailwind({
     applyBaseStyles: false,
   }), compress()],
+  plugins: [
+    "@astro/plugin-rss"
+  ]
 })
