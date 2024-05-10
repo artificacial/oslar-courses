@@ -1,8 +1,5 @@
 ---
 import CallToAction from './CallToAction.astro'
-import { link } from "@astro/elements";
-
-const sitemapLink = link({rel: "sitemap", href: "/sitemap.xml"});
 
 const currentYear = new Date().getFullYear()
 ---
@@ -14,7 +11,7 @@ const currentYear = new Date().getFullYear()
       <p>
         &copy; {currentYear} - Webpage inspired by Theme for <a href="https://astro.build/">Astro</a>. Made with ❤️ by <a
           href="https://github.com/artificacial/artificacial">Öslar</a
-        >.<a href={sitemapLink}>Sitemap</a>
+        >.
       </p>
     </div>
   </section>
